@@ -1,0 +1,7 @@
+---
+# tasks file for molecule-inspec
+- include_tasks: ubuntu_install.yml
+  when: ansible_distribution == "Ubuntu"
+
+- include_tasks: centos_install.yml
+  when: ansible_distribution == "CentOS"
