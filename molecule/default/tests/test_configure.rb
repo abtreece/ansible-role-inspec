@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 control 'configure-nginx-1.0' do
   impact 0.7
   title 'Ensure openresty configuration is in place'

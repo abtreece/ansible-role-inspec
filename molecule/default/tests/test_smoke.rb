@@ -11,5 +11,4 @@ control 'openresty-smoketest-1.0' do
     its('headers.Server') { should cmp 'openresty' }
     its('headers.Content-Type') { should cmp 'text/html' }
   end
-
 end

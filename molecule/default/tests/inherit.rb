@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 include_controls 'DevSec Nginx Baseline' do
   skip_control 'nginx-02'
   # We override the rate limiter so this test isn't valid
