@@ -23,7 +23,9 @@ platforms:
       - SYS_ADMIN
 provisioner:
   name: ansible
-  log: true
+  env:
+    ANSIBLE_STDOUT_CALLBACK: unixy
+  log: false
   lint:
     name: ansible-lint
 verifier:
