@@ -1,8 +1,7 @@
 ---
 - name: nginx | Install nginx
   apt:
-    name:
-      - nginx
+    name: nginx
     state: present
 
 - name: Start NGiNX
